@@ -1,0 +1,232 @@
+[
+    {
+        "impact": "critical", 
+        "description": "Ensures <img> elements have alternate text or a role of none or presentation", 
+        "tags": [
+            "cat.text-alternatives", 
+            "wcag2a", 
+            "wcag111", 
+            "section508", 
+            "section508.22.a"
+        ], 
+        "nodes": [
+            {
+                "impact": "critical", 
+                "all": [], 
+                "target": [
+                    "img[align=\"middle\"]:nth-child(7)"
+                ], 
+                "none": [], 
+                "html": "<img src=\"http://sonyhelpguide.scene7.com/is/image/piokb/vaguekeywords1\" align=\"middle\">", 
+                "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"", 
+                "any": [
+                    {
+                        "impact": "critical", 
+                        "relatedNodes": [], 
+                        "message": "Element does not have an alt attribute", 
+                        "data": null, 
+                        "id": "has-alt"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "aria-label attribute does not exist or is empty", 
+                        "data": null, 
+                        "id": "aria-label"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible", 
+                        "data": null, 
+                        "id": "aria-labelledby"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "Element has no title attribute or the title attribute is empty", 
+                        "data": null, 
+                        "id": "non-empty-title"
+                    }, 
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element's default semantics were not overridden with role=\"presentation\"", 
+                        "data": null, 
+                        "id": "role-presentation"
+                    }, 
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element's default semantics were not overridden with role=\"none\"", 
+                        "data": null, 
+                        "id": "role-none"
+                    }
+                ]
+            }, 
+            {
+                "impact": "critical", 
+                "all": [], 
+                "target": [
+                    "img[align=\"middle\"]:nth-child(13)"
+                ], 
+                "none": [], 
+                "html": "<img src=\"http://sonyhelpguide.scene7.com/is/image/piokb/vaguekeywords2\" align=\"middle\">", 
+                "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"", 
+                "any": [
+                    {
+                        "impact": "critical", 
+                        "relatedNodes": [], 
+                        "message": "Element does not have an alt attribute", 
+                        "data": null, 
+                        "id": "has-alt"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "aria-label attribute does not exist or is empty", 
+                        "data": null, 
+                        "id": "aria-label"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible", 
+                        "data": null, 
+                        "id": "aria-labelledby"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "Element has no title attribute or the title attribute is empty", 
+                        "data": null, 
+                        "id": "non-empty-title"
+                    }, 
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element's default semantics were not overridden with role=\"presentation\"", 
+                        "data": null, 
+                        "id": "role-presentation"
+                    }, 
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element's default semantics were not overridden with role=\"none\"", 
+                        "data": null, 
+                        "id": "role-none"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI", 
+        "id": "image-alt", 
+        "help": "Images must have alternate text"
+    }, 
+    {
+        "impact": "serious", 
+        "description": "Ensures that lists are structured correctly", 
+        "tags": [
+            "cat.structure", 
+            "wcag2a", 
+            "wcag131"
+        ], 
+        "nodes": [
+            {
+                "impact": "serious", 
+                "all": [], 
+                "target": [
+                    ".spec-title-wrap > ol"
+                ], 
+                "none": [
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [
+                            {
+                                "html": "<p></p>", 
+                                "target": [
+                                    "ol > p:nth-child(1)"
+                                ]
+                            }, 
+                            {
+                                "html": "<br>", 
+                                "target": [
+                                    "br:nth-child(3)"
+                                ]
+                            }, 
+                            {
+                                "html": "<br>", 
+                                "target": [
+                                    "br:nth-child(5)"
+                                ]
+                            }, 
+                            {
+                                "html": "<br>", 
+                                "target": [
+                                    "br:nth-child(6)"
+                                ]
+                            }, 
+                            {
+                                "html": "<img src=\"http://sonyhelpguide.scene7.com/is/image/piokb/vaguekeywords1\" align=\"middle\">", 
+                                "target": [
+                                    "img[align=\"middle\"]:nth-child(7)"
+                                ]
+                            }, 
+                            {
+                                "html": "<br>", 
+                                "target": [
+                                    "br:nth-child(8)"
+                                ]
+                            }, 
+                            {
+                                "html": "<p>IMPORTANT: Make sure you type your model name correctly (including the hyphen (-) if applicable). The predictive search feature will help you make sure you\u2019re typing the model correctly.</p>", 
+                                "target": [
+                                    "p:nth-child(9)"
+                                ]
+                            }, 
+                            {
+                                "html": "<br>", 
+                                "target": [
+                                    "br:nth-child(10)"
+                                ]
+                            }, 
+                            {
+                                "html": "<br>", 
+                                "target": [
+                                    "br:nth-child(12)"
+                                ]
+                            }, 
+                            {
+                                "html": "<img src=\"http://sonyhelpguide.scene7.com/is/image/piokb/vaguekeywords2\" align=\"middle\">", 
+                                "target": [
+                                    "img[align=\"middle\"]:nth-child(13)"
+                                ]
+                            }, 
+                            {
+                                "html": "<br>", 
+                                "target": [
+                                    "br:nth-child(14)"
+                                ]
+                            }, 
+                            {
+                                "html": "<p>We hope you can find the information you need.</p>", 
+                                "target": [
+                                    "p:nth-child(15)"
+                                ]
+                            }
+                        ], 
+                        "message": "List element has direct children that are not allowed inside <li> elements", 
+                        "data": null, 
+                        "id": "only-listitems"
+                    }
+                ], 
+                "html": "<ol class=\"p2 \" style=\"list-style-type:decimal;\">", 
+                "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements", 
+                "any": []
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/list?application=axeAPI", 
+        "id": "list", 
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements"
+    }
+]

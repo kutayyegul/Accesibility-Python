@@ -1,0 +1,74 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-YkOU2BXcNfY\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-YkOU2BXcNfY\" title=\"Gavin DeGraw - Fire\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999339900405956960833252761&quot;,&quot;name&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M07-fire&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M07-fire&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/July/Hoffman-HRA-OOFM-RioSummerOlympics-Jul5&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999339900405956960833252761&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160627044517&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;YkOU2BXcNfY&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1468481462007,&quot;updatedAt&quot;:1471936984548,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477898350\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/YkOU2BXcNfY?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=2\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477898350", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-btPJPFnesV4\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999339900405985943153282175&quot;,&quot;name&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M11-eyetiger&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M11-eyetiger&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/July/Hoffman-HRA-OOFM-RioSummerOlympics-Jul5&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999339900405985943153282175&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160627044517&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;btPJPFnesV4&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1468481462012,&quot;updatedAt&quot;:1471936984566,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477898350\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-btPJPFnesV4\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477898350", 
+                        "data": "undefined-1526477898350", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }, 
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-rGOxzl95FaY\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-rGOxzl95FaY\" title=\"Queen - We Are The Champions (Live at Rock In Rio 1985)\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999339900406047114003259989&quot;,&quot;name&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M19-weare&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M19-weare&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/July/Hoffman-HRA-OOFM-RioSummerOlympics-Jul5&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999339900406047114003259989&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160627044517&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;rGOxzl95FaY&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1468481462014,&quot;updatedAt&quot;:1471936984588,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477898354\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/rGOxzl95FaY?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=5\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477898354", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-QvO5z5tx4ZA\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99933990040607133610323220&quot;,&quot;name&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M22-songsto&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M22-songsto&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/July/Hoffman-HRA-OOFM-RioSummerOlympics-Jul5&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99933990040607133610323220&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160627044517&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;QvO5z5tx4ZA&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1468481462013,&quot;updatedAt&quot;:1471936984560,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477898354\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-QvO5z5tx4ZA\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-56wLtxvoc_o\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999339900406103871363250279&quot;,&quot;name&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M26-braziliannights&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-RioSummerOlympics-2016-06-M26-braziliannights&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/July/Hoffman-HRA-OOFM-RioSummerOlympics-Jul5&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999339900406103871363250279&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160627044517&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;56wLtxvoc_o&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1468481462013,&quot;updatedAt&quot;:1471936984564,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477898354\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-56wLtxvoc_o\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477898354", 
+                        "data": "undefined-1526477898354", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

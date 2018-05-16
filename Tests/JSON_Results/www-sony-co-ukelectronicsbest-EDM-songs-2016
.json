@@ -1,0 +1,74 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-kOkQ4T5WO9E\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-kOkQ4T5WO9E\" title=\"Calvin Harris - This Is What You Came For (Official Video) ft. Rihanna\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99943223728359376832715411&quot;,&quot;name&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M07-whatyou&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M07-whatyou&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/September/Hoffman-HRA-OOFM-BestEDMSongs-Sep11&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99943223728359376832715411&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160816025101&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;kOkQ4T5WO9E&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1473231303065,&quot;updatedAt&quot;:1476780422186,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477870178\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/kOkQ4T5WO9E?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=2\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477870178", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-ZWyktWYW3ZM\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99943223728394616412798347&quot;,&quot;name&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M09-ragingft&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M09-ragingft&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/September/Hoffman-HRA-OOFM-BestEDMSongs-Sep11&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99943223728394616412798347&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160816025101&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;ZWyktWYW3ZM&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1473231303064,&quot;updatedAt&quot;:1476780422181,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477870178\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-ZWyktWYW3ZM\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477870178", 
+                        "data": "undefined-1526477870178", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }, 
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-a59gmGkq_pw\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-a59gmGkq_pw\" title=\"Major Lazer - Cold Water (feat. Justin Bieber &amp; M\u00d8) (Official Lyric Video)\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99943223728439408282759035&quot;,&quot;name&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M12-coldwater&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M12-coldwater&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/September/Hoffman-HRA-OOFM-BestEDMSongs-Sep11&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99943223728439408282759035&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160816025101&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;a59gmGkq_pw&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1473231303109,&quot;updatedAt&quot;:1476780422187,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477870180\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/a59gmGkq_pw?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=4\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477870180", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-liHR-4PK5mg\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99943223728466834712775758&quot;,&quot;name&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M14-keeprunning&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M14-keeprunning&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/September/Hoffman-HRA-OOFM-BestEDMSongs-Sep11&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99943223728466834712775758&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160816025101&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;liHR-4PK5mg&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1473231303057,&quot;updatedAt&quot;:1476780422181,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477870180\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-liHR-4PK5mg\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-lkWoCwGult4\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99943223728491576572710963&quot;,&quot;name&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M16-summernights&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-2016BestEDMSongs-2016-08-M16-summernights&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/September/Hoffman-HRA-OOFM-BestEDMSongs-Sep11&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99943223728491576572710963&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160816025101&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;lkWoCwGult4&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1473231303053,&quot;updatedAt&quot;:1476780422181,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477870180\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-lkWoCwGult4\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477870180", 
+                        "data": "undefined-1526477870180", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

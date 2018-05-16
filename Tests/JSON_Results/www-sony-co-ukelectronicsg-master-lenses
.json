@@ -1,0 +1,42 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    ".group-top.white.textonly:nth-child(52)"
+                ], 
+                "none": [], 
+                "html": "<section style=\"background-size: cover;background-repeat: no-repeat;background-position: center center;background-color: #F1F5f9;\" id=\"editorial_image_2213402999661426721947256\" class=\"editorial gwt-module textonly white editorial_image group-top\" aria-label=\"New section\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: editorial_image_2213402999661426721947256", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<section style=\"background-size: cover;background-repeat: no-repeat;background-position: center center;background-color: #F1F5f9;\" id=\"editorial_image_2213402999661426721947256\" class=\"editorial gwt-module textonly white editorial_image group-top\" aria-label=\"New section\">", 
+                                "target": [
+                                    ".group-top.white.textonly:nth-child(56)"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: editorial_image_2213402999661426721947256", 
+                        "data": "editorial_image_2213402999661426721947256", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

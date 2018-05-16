@@ -1,0 +1,42 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-x5iczT4f17Q\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-x5iczT4f17Q\" title=\"BRAVIA X9000C/X9100C series Floating Style - Our thinnest ever 4K TV\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:2740430244269403303275020&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Bravia-2015&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:2740430244269403303275020&quot;,&quot;masterName&quot;:&quot;VidF-PDP-BRAVIA-OOF-2015-03-M30&quot;,&quot;name&quot;:&quot;VidF-PDP-BRAVIA-OOF-2015-03-M30&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;status&quot;:&quot;published&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;version&quot;:&quot;20150325053131&quot;,&quot;videoName&quot;:&quot;x5iczT4f17Q&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;createdAt&quot;:1428876907293,&quot;updatedAt&quot;:1462791322214,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477940194\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/x5iczT4f17Q?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=4\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477940194", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-cdCTE1aViCM\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:60734464059818338227378&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Bravia-2015&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:60734464059818338227378&quot;,&quot;masterName&quot;:&quot;VidF-Bravia-OOFM-2015-08-M33-geometrydesignEN&quot;,&quot;name&quot;:&quot;VidF-Bravia-OOFM-2015-08-M33-geometrydesignEN&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;status&quot;:&quot;published&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;version&quot;:&quot;20150829065727&quot;,&quot;videoName&quot;:&quot;cdCTE1aViCM&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;createdAt&quot;:1441633142803,&quot;updatedAt&quot;:1462792023473,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477940194\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-cdCTE1aViCM\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477940194", 
+                        "data": "undefined-1526477940194", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

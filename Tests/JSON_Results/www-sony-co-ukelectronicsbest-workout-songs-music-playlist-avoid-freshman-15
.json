@@ -1,0 +1,86 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-VBmMU_iwe6U\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-VBmMU_iwe6U\" title=\"Beyonc\u00e9 - Run the World (Girls) (Video - Main Version)\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:38995767074506357520922&quot;,&quot;name&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M13-Beyonce&quot;,&quot;masterName&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M13-Beyonce&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-HRA-OOFM-Freshman&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:38995767074506357520922&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20150804030638&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;VBmMU_iwe6U&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1439802425651,&quot;updatedAt&quot;:1471950904048,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526478156144\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/VBmMU_iwe6U?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=4\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526478156144", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-y6Sxv-sUYtM\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:39003020324701829231298657&quot;,&quot;name&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M15-PharrellWilliams&quot;,&quot;masterName&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M15-PharrellWilliams&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-HRA-OOFM-Freshman&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:39003020324701829231298657&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20150804031901&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;y6Sxv-sUYtM&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1439802425661,&quot;updatedAt&quot;:1471950904024,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526478156144\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-y6Sxv-sUYtM\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-09R8_2nJtjg\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:39016713332427929230370876&quot;,&quot;name&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M17-Maroon5&quot;,&quot;masterName&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M17-Maroon5&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-HRA-OOFM-Freshman&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:39016713332427929230370876&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20150804034116&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;09R8_2nJtjg&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1439802425579,&quot;updatedAt&quot;:1471950904050,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526478156144\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-09R8_2nJtjg\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-7PCkvCPvDXk\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:390284004390368014190658446&quot;,&quot;name&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M19-MeghanTrainor&quot;,&quot;masterName&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M19-MeghanTrainor&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-HRA-OOFM-Freshman&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:390284004390368014190658446&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20150804040026&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;7PCkvCPvDXk&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1439802425579,&quot;updatedAt&quot;:1471950904026,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526478156144\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-7PCkvCPvDXk\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526478156144", 
+                        "data": "undefined-1526478156144", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }, 
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-X46t8ZFqUB4\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-X46t8ZFqUB4\" title=\"Zedd - I Want You To Know ft. Selena Gomez\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:3904267462538965183777933&quot;,&quot;name&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M21-Zedd&quot;,&quot;masterName&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M21-Zedd&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-HRA-OOFM-Freshman&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:3904267462538965183777933&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20150804042557&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;X46t8ZFqUB4&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1439802425602,&quot;updatedAt&quot;:1471950904011,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526478156146\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/X46t8ZFqUB4?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=8\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526478156146", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-CevxZvSJLk8\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:39049011286370139230760788&quot;,&quot;name&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M23-KatyPerry&quot;,&quot;masterName&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M23-KatyPerry&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-HRA-OOFM-Freshman&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:39049011286370139230760788&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20150804043446&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;CevxZvSJLk8&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1439802425641,&quot;updatedAt&quot;:1471950904016,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526478156146\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-CevxZvSJLk8\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-xo1VInw-SKc\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:3905345791947944923039628&quot;,&quot;name&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M25-ArianaGrande&quot;,&quot;masterName&quot;:&quot;VidF-OOFM-HRA-Freshman-2015-08-M25-ArianaGrande&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-HRA-OOFM-Freshman&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:3905345791947944923039628&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20150820065300&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;xo1VInw-SKc&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1439802425587,&quot;updatedAt&quot;:1471950904016,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526478156146\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-xo1VInw-SKc\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526478156146", 
+                        "data": "undefined-1526478156146", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

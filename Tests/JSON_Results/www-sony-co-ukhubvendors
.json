@@ -1,0 +1,108 @@
+[
+    {
+        "impact": "serious", 
+        "description": "Ensures each HTML document contains a non-empty <title> element", 
+        "tags": [
+            "cat.text-alternatives", 
+            "wcag2a", 
+            "wcag242"
+        ], 
+        "nodes": [
+            {
+                "impact": "serious", 
+                "all": [], 
+                "target": [
+                    "html"
+                ], 
+                "none": [], 
+                "html": "<html class=\"modern js canvas canvastext no-touch history rgba textshadow csstransforms csstransforms3d csstransitions video audio applicationcache svg inlinesvg smil svgclippaths mediaqueries no-jsautomargins displaytable widthboundsontables absolutepositionontables nav-ready bp-nav-mobile bp-footer-mobile\" dir=\"ltr\" style=\"\" lang=\"en\">", 
+                "failureSummary": "Fix any of the following:\n  Document does not have a non-empty <title> element", 
+                "any": [
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "Document does not have a non-empty <title> element", 
+                        "data": null, 
+                        "id": "doc-has-title"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI", 
+        "id": "document-title", 
+        "help": "Documents must have <title> element to aid in navigation"
+    }, 
+    {
+        "impact": "serious", 
+        "description": "Ensures links have discernible text", 
+        "tags": [
+            "cat.name-role-value", 
+            "wcag2a", 
+            "wcag111", 
+            "wcag412", 
+            "wcag244", 
+            "section508", 
+            "section508.22.a"
+        ], 
+        "nodes": [
+            {
+                "impact": "serious", 
+                "all": [], 
+                "target": [
+                    ".simplescroll"
+                ], 
+                "none": [
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "Element is in tab order and does not have accessible text", 
+                        "data": null, 
+                        "id": "focusable-no-name"
+                    }
+                ], 
+                "html": "<a class=\"simplescroll\" href=\"#\"></a>", 
+                "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"", 
+                "any": [
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element does not have text that is visible to screen readers", 
+                        "data": null, 
+                        "id": "has-visible-text"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "aria-label attribute does not exist or is empty", 
+                        "data": null, 
+                        "id": "aria-label"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible", 
+                        "data": null, 
+                        "id": "aria-labelledby"
+                    }, 
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element's default semantics were not overridden with role=\"presentation\"", 
+                        "data": null, 
+                        "id": "role-presentation"
+                    }, 
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element's default semantics were not overridden with role=\"none\"", 
+                        "data": null, 
+                        "id": "role-none"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI", 
+        "id": "link-name", 
+        "help": "Links must have discernible text"
+    }
+]

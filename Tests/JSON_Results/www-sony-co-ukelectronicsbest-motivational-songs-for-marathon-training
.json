@@ -1,0 +1,68 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-qDRORgoZxZU\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-qDRORgoZxZU\" title=\"Meghan Trainor - Me Too\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999145030383822482663054031&quot;,&quot;name&quot;:&quot;VIDF-OOFM-MarathonTrainingPlay-2016-10-M11-metoo&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-MarathonTrainingPlay-2016-10-M11-metoo&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/November/Hoffman-HRA-MarathonTrainingPlay-Nov15&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999145030383822482663054031&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20161027023639&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;qDRORgoZxZU&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1479452102014,&quot;updatedAt&quot;:1479452102069,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477370224\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/qDRORgoZxZU?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=2\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477370224", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-KEI4qSrkPAs\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999145030383839926773021788&quot;,&quot;name&quot;:&quot;VIDF-OOFM-MarathonTrainingPlay-2016-10-M14-cantfeel&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-MarathonTrainingPlay-2016-10-M14-cantfeel&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/November/Hoffman-HRA-MarathonTrainingPlay-Nov15&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999145030383839926773021788&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20161027023639&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;KEI4qSrkPAs&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1479452102016,&quot;updatedAt&quot;:1479452102120,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477370224\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-KEI4qSrkPAs\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477370224", 
+                        "data": "undefined-1526477370224", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }, 
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer--QlqqhzLVFo\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer--QlqqhzLVFo\" title=\"Imagine Dragons - I Bet My Life (Audio)\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999145030383876664253061433&quot;,&quot;name&quot;:&quot;VIDF-OOFM-MarathonTrainingPlay-2016-10-M20-betmy&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-MarathonTrainingPlay-2016-10-M20-betmy&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/November/Hoffman-HRA-MarathonTrainingPlay-Nov15&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999145030383876664253061433&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20161027023639&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;-QlqqhzLVFo&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1479452102016,&quot;updatedAt&quot;:1479452102056,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477370228\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/-QlqqhzLVFo?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=5\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477370228", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-_bHhpufKRjs\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999145030383897801353030445&quot;,&quot;name&quot;:&quot;VIDF-OOFM-MarathonTrainingPlay-2016-10-M23-applause&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-MarathonTrainingPlay-2016-10-M23-applause&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/November/Hoffman-HRA-MarathonTrainingPlay-Nov15&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999145030383897801353030445&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20161027023639&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;_bHhpufKRjs&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1479452102087,&quot;updatedAt&quot;:1479452102087,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477370228\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-_bHhpufKRjs\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477370228", 
+                        "data": "undefined-1526477370228", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "impact": "serious", 
+        "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute", 
+        "tags": [
+            "cat.text-alternatives", 
+            "wcag2a", 
+            "wcag241", 
+            "section508", 
+            "section508.22.i"
+        ], 
+        "nodes": [
+            {
+                "impact": "serious", 
+                "all": [], 
+                "target": [
+                    "iframe[allowfullscreen=\"\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe src=\"https://www.youtube.com/embed/6MaoPaXWwjA?feature=player_embedded&amp;hl=en&amp;cc_load_policy=1\" allowfullscreen=\"\" frameborder=\"0\" width=\"100%\" height=\"360\"></iframe>", 
+                "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"", 
+                "any": [
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "aria-label attribute does not exist or is empty", 
+                        "data": null, 
+                        "id": "aria-label"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible", 
+                        "data": null, 
+                        "id": "aria-labelledby"
+                    }, 
+                    {
+                        "impact": "serious", 
+                        "relatedNodes": [], 
+                        "message": "Element has no title attribute or the title attribute is empty", 
+                        "data": null, 
+                        "id": "non-empty-title"
+                    }, 
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element's default semantics were not overridden with role=\"presentation\"", 
+                        "data": null, 
+                        "id": "role-presentation"
+                    }, 
+                    {
+                        "impact": "minor", 
+                        "relatedNodes": [], 
+                        "message": "Element's default semantics were not overridden with role=\"none\"", 
+                        "data": null, 
+                        "id": "role-none"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI", 
+        "id": "frame-title", 
+        "help": "Frames must have title attribute"
+    }
+]

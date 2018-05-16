@@ -1,0 +1,42 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-SDuwmU1a1kY\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-SDuwmU1a1kY\" title=\"Passion Pit - Where the Sky Hangs (Audio)\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99915610045395587312718789&quot;,&quot;name&quot;:&quot;VIDF-OOFM-CommutePlaylist-2016-07-M20-wheresky&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-CommutePlaylist-2016-07-M20-wheresky&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/July/Hoffman-HRA-OOFM-CommutePlaylist-Jul9&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99915610045395587312718789&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160715034812&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;SDuwmU1a1kY&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1469605142401,&quot;updatedAt&quot;:1471936986703,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526481059222\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/SDuwmU1a1kY?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=4\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526481059222", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-xqmFxgEGKH0\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99915610045448744112757235&quot;,&quot;name&quot;:&quot;VIDF-OOFM-CommutePlaylist-2016-07-M24-rocksongs&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-CommutePlaylist-2016-07-M24-rocksongs&quot;,&quot;maintenanceStructure&quot;:&quot;/New_OOFM/Hoffman/2016/July/Hoffman-HRA-OOFM-CommutePlaylist-Jul9&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99915610045448744112757235&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160715034812&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;xqmFxgEGKH0&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1469605142380,&quot;updatedAt&quot;:1471936986725,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526481059222\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-xqmFxgEGKH0\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526481059222", 
+                        "data": "undefined-1526481059222", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

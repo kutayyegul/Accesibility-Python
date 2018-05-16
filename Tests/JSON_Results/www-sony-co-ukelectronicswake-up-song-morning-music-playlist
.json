@@ -1,0 +1,60 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-zkbTp3-zBGg\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-zkbTp3-zBGg\" title=\"Jason Mraz - The Woman I Love [Official Video]\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999280456701986399363396658&quot;,&quot;name&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M18-wakeupsongs&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M18-wakeupsongs&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WakeUpWithMusic-May2&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999280456701986399363396658&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160419095627&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;zkbTp3-zBGg&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1462254903864,&quot;updatedAt&quot;:1471936986542,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477606594\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/zkbTp3-zBGg?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=4\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477606594", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-nkmZaJxogI4\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999280456702032618623312877&quot;,&quot;name&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M22-textless&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M22-textless&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WakeUpWithMusic-May2&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999280456702032618623312877&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160419095627&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;nkmZaJxogI4&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1462254904014,&quot;updatedAt&quot;:1471936986537,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477606594\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-nkmZaJxogI4\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-m36xv75MJ4U\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999280456702056683973386521&quot;,&quot;name&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M24-allamerican&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M24-allamerican&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WakeUpWithMusic-May2&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999280456702056683973386521&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160419095627&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;m36xv75MJ4U&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1462254904051,&quot;updatedAt&quot;:1471936986637,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477606594\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-m36xv75MJ4U\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-Vjty080jy60\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999280456702096187193373584&quot;,&quot;name&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M27-notbad&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M27-notbad&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WakeUpWithMusic-May2&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999280456702096187193373584&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160419095627&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;Vjty080jy60&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1462254903871,&quot;updatedAt&quot;:1471936986535,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477606594\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-Vjty080jy60\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-7Nplwr5simI\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999280456702143702053351496&quot;,&quot;name&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M30-wakeupsongs&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-Wakeupwithmusic-2016-04-M30-wakeupsongs&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WakeUpWithMusic-May2&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999280456702143702053351496&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160419095627&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;7Nplwr5simI&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1462254903872,&quot;updatedAt&quot;:1471936986591,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477606594\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-7Nplwr5simI\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477606594", 
+                        "data": "undefined-1526477606594", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

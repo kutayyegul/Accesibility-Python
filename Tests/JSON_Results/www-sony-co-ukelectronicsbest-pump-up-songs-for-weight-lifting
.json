@@ -1,0 +1,80 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-iDyp3Syaccs\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-iDyp3Syaccs\" title=\"Black Sabbath - &quot;Iron Man&quot; Live 1999\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999288041596131647453024408&quot;,&quot;name&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M18-ironman&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M18-ironman&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WeightliftingSongs-May7&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999288041596131647453024408&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160428041356&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;iDyp3Syaccs&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1463675463071,&quot;updatedAt&quot;:1471936986652,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477839684\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/iDyp3Syaccs?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=4\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477839684", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-_NdHySPJr8I\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999288041596165485423065243&quot;,&quot;name&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M22-rockbust&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M22-rockbust&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WeightliftingSongs-May7&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999288041596165485423065243&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160428041356&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;_NdHySPJr8I&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1463675463074,&quot;updatedAt&quot;:1471936986595,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477839684\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-_NdHySPJr8I\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477839684", 
+                        "data": "undefined-1526477839684", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }, 
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-HgzGwKwLmgM\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-HgzGwKwLmgM\" title=\"Queen - Don't Stop Me Now (Official Video)\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:99928804159619843689306485&quot;,&quot;name&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M26-textless&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M26-textless&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WeightliftingSongs-May7&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:99928804159619843689306485&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160428041356&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;HgzGwKwLmgM&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1463675463075,&quot;updatedAt&quot;:1471936986690,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477839686\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/HgzGwKwLmgM?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=6\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477839686", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-btPJPFnesV4\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999288041596224503433067574&quot;,&quot;name&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M29-eyetiger&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M29-eyetiger&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WeightliftingSongs-May7&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999288041596224503433067574&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160428041356&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;btPJPFnesV4&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1463675463079,&quot;updatedAt&quot;:1471936986708,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477839686\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-btPJPFnesV4\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-eVTXPUF4Oz4\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999288041596259205393067190&quot;,&quot;name&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M33-inend&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M33-inend&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WeightliftingSongs-May7&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999288041596259205393067190&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160428041356&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;eVTXPUF4Oz4&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1463675463075,&quot;updatedAt&quot;:1471936986696,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477839686\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-eVTXPUF4Oz4\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-fmXLzY8kbYA\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:999288041596301279963035064&quot;,&quot;name&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M37-snowhey&quot;,&quot;masterName&quot;:&quot;VIDF-OOFM-WeightliftingPlaylis-2016-04-M37-snowhey&quot;,&quot;maintenanceStructure&quot;:&quot;New_OOFM/Hoffman/2016/May/Hoffman-HRA-OOFM-WeightliftingSongs-May7&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:999288041596301279963035064&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20160428041356&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;fmXLzY8kbYA&quot;,&quot;videoDefaultQuality&quot;:&quot;1280x720_2000K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1463675463078,&quot;updatedAt&quot;:1471936986658,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477839686\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-fmXLzY8kbYA\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477839686", 
+                        "data": "undefined-1526477839686", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

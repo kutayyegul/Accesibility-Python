@@ -1,0 +1,100 @@
+[
+    {
+        "impact": "moderate", 
+        "description": "Ensures every id attribute value is unique", 
+        "tags": [
+            "cat.parsing", 
+            "wcag2a", 
+            "wcag411"
+        ], 
+        "nodes": [
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-nfWlot6h_JM\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-nfWlot6h_JM\" title=\"Taylor Swift - Shake It Off\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:155403434664175228266534&quot;,&quot;name&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M14&quot;,&quot;masterName&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M14&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-All/Hoffman-HRA-OOFM-Best-Road-Trip-Songs-Jan1&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:155403434664175228266534&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20151217153446&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;nfWlot6h_JM&quot;,&quot;videoDefaultQuality&quot;:&quot;384x288_400K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1452190024319,&quot;updatedAt&quot;:1469701864306,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477994036\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/nfWlot6h_JM?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=4\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477994036", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-6hzrDeceEKc\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:155404735965238962925131456&quot;,&quot;name&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M17&quot;,&quot;masterName&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M17&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-All/Hoffman-HRA-OOFM-Best-Road-Trip-Songs-Jan1&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:155404735965238962925131456&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20151217153532&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;6hzrDeceEKc&quot;,&quot;videoDefaultQuality&quot;:&quot;384x288_400K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1452190024318,&quot;updatedAt&quot;:1469701864322,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477994036\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-6hzrDeceEKc\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477994036", 
+                        "data": "undefined-1526477994036", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }, 
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-2-MBfn8XjIU\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-2-MBfn8XjIU\" title=\"Meghan Trainor - Like I'm Gonna Lose You ft. John Legend\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:155407084255963778297149&quot;,&quot;name&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M20&quot;,&quot;masterName&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M20&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-All/Hoffman-HRA-OOFM-Best-Road-Trip-Songs-Jan1&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:155407084255963778297149&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20151217153827&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;2-MBfn8XjIU&quot;,&quot;videoDefaultQuality&quot;:&quot;384x288_400K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1452190024329,&quot;updatedAt&quot;:1469701864302,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477994038\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/2-MBfn8XjIU?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=6\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477994038", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-WziA88-n02k\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:155408373969792677870585&quot;,&quot;name&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M23&quot;,&quot;masterName&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M23&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-All/Hoffman-HRA-OOFM-Best-Road-Trip-Songs-Jan1&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:155408373969792677870585&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20151217153911&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;WziA88-n02k&quot;,&quot;videoDefaultQuality&quot;:&quot;384x288_400K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1452190024327,&quot;updatedAt&quot;:1469701864325,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477994038\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-WziA88-n02k\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477994038", 
+                        "data": "undefined-1526477994038", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }, 
+            {
+                "impact": "moderate", 
+                "all": [], 
+                "target": [
+                    "iframe[data-id=\"sonyplayer-S2Cti12XBw4\"]"
+                ], 
+                "none": [], 
+                "html": "<iframe data-id=\"sonyplayer-S2Cti12XBw4\" title=\"Maroon 5 - Sunday Morning\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:155410098255878627682737&quot;,&quot;name&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M26&quot;,&quot;masterName&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M26&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-All/Hoffman-HRA-OOFM-Best-Road-Trip-Songs-Jan1&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:155410098255878627682737&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20151217154002&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;S2Cti12XBw4&quot;,&quot;videoDefaultQuality&quot;:&quot;384x288_400K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1452190024326,&quot;updatedAt&quot;:1469701864323,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477994040\" allowfullscreen=\"1\" allow=\"autoplay; encrypted-media\" src=\"https://www.youtube.com/embed/S2Cti12XBw4?autohide=1&amp;origin=https%3A%2F%2Fwww.sony.co.uk&amp;modestbranding=1&amp;enablejsapi=1&amp;showinfo=0&amp;wmode=transparent&amp;controls=1&amp;rel=0&amp;hl=en&amp;cc_load_policy=0&amp;widgetid=8\" frameborder=\"0\" width=\"100%\" height=\"360\">", 
+                "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: undefined-1526477994040", 
+                "any": [
+                    {
+                        "impact": "moderate", 
+                        "relatedNodes": [
+                            {
+                                "html": "<div data-id=\"sonyplayer-G9iTdyGKgD4\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:155412147731314168031362&quot;,&quot;name&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M29&quot;,&quot;masterName&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M29&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-All/Hoffman-HRA-OOFM-Best-Road-Trip-Songs-Jan1&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:155412147731314168031362&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20151217154040&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;G9iTdyGKgD4&quot;,&quot;videoDefaultQuality&quot;:&quot;384x288_400K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1452190024334,&quot;updatedAt&quot;:1469701864300,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477994040\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-G9iTdyGKgD4\"]"
+                                ]
+                            }, 
+                            {
+                                "html": "<div data-id=\"sonyplayer-4aeETEoNfOg\" title=\"video player\" class=\"sonyplayer-placeholder \" data-all=\"{&quot;_id&quot;:&quot;urn:sony:media:video_family:155413293950270347683903&quot;,&quot;name&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M32&quot;,&quot;masterName&quot;:&quot;Vid-F-HRA-OOFM-Best-Road-Trip-Songs-2015-12-M32&quot;,&quot;maintenanceStructure&quot;:&quot;Out_of_Flow_Marketing/Hoffman-All/Hoffman-HRA-OOFM-Best-Road-Trip-Songs-Jan1&quot;,&quot;videoProvider&quot;:&quot;youtube&quot;,&quot;isMasterNonEnglish&quot;:&quot;false&quot;,&quot;isLocalized&quot;:&quot;false&quot;,&quot;masterId&quot;:&quot;urn:sony:media:video_family:155413293950270347683903&quot;,&quot;locale&quot;:&quot;all&quot;,&quot;version&quot;:&quot;20151217154137&quot;,&quot;readyForLive&quot;:&quot;No&quot;,&quot;type&quot;:&quot;urn:sony:media:video_family&quot;,&quot;videoName&quot;:&quot;4aeETEoNfOg&quot;,&quot;videoDefaultQuality&quot;:&quot;384x288_400K&quot;,&quot;status&quot;:&quot;published&quot;,&quot;createdAt&quot;:1452190024337,&quot;updatedAt&quot;:1469701864288,&quot;dependents&quot;:[],&quot;hasSubtitles&quot;:false}\" id=\"undefined-1526477994040\">", 
+                                "target": [
+                                    "div[data-id=\"sonyplayer-4aeETEoNfOg\"]"
+                                ]
+                            }
+                        ], 
+                        "message": "Document has multiple elements with the same id attribute: undefined-1526477994040", 
+                        "data": "undefined-1526477994040", 
+                        "id": "duplicate-id"
+                    }
+                ]
+            }
+        ], 
+        "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI", 
+        "id": "duplicate-id", 
+        "help": "id attribute value must be unique"
+    }
+]

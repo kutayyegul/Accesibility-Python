@@ -1,0 +1,1210 @@
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/electronics/best-music-videos-2016
+Found 1 accessibility violations:
+
+
+Rule Violated:
+duplicate-id - Ensures every id attribute value is unique
+	URL: https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI
+	Impact Level: moderate
+	Tags: cat.parsing wcag2a wcag411
+	Elements Affected:
+	1) Target: iframe[data-id="sonyplayer-YykjpeuMNEk"]
+		Document has multiple elements with the same id attribute: undefined-1526480773888
+
+
+
+URL = https://www.sony.co.uk/electronics/support/devices-to-your-tv-via-hdmi
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/generic-search
+Found 2 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img[align="middle"]:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img[align="middle"]:nth-child(13)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+
+
+Rule Violated:
+list - Ensures that lists are structured correctly
+	URL: https://dequeuniversity.com/rules/axe/3.0/list?application=axeAPI
+	Impact Level: serious
+	Tags: cat.structure wcag2a wcag131
+	Elements Affected:
+	1) Target: .spec-title-wrap > ol
+		List element has direct children that are not allowed inside <li> elements
+
+
+
+URL = https://www.sony.co.uk/playstation-store
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: .imageCover > img
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/how-to-clean-your-slt
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img:nth-child(5)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/oled-unboxing
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/electronics/best-music-videos-2016
+Found 1 accessibility violations:
+
+
+Rule Violated:
+duplicate-id - Ensures every id attribute value is unique
+	URL: https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI
+	Impact Level: moderate
+	Tags: cat.parsing wcag2a wcag411
+	Elements Affected:
+	1) Target: iframe[data-id="sonyplayer-YykjpeuMNEk"]
+		Document has multiple elements with the same id attribute: undefined-1526480773888
+
+
+
+URL = https://www.sony.co.uk/electronics/support/devices-to-your-tv-via-hdmi
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/generic-search
+Found 2 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img[align="middle"]:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img[align="middle"]:nth-child(13)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+
+
+Rule Violated:
+list - Ensures that lists are structured correctly
+	URL: https://dequeuniversity.com/rules/axe/3.0/list?application=axeAPI
+	Impact Level: serious
+	Tags: cat.structure wcag2a wcag131
+	Elements Affected:
+	1) Target: .spec-title-wrap > ol
+		List element has direct children that are not allowed inside <li> elements
+
+
+
+URL = https://www.sony.co.uk/playstation-store
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: .imageCover > img
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/how-to-clean-your-slt
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img:nth-child(5)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/oled-unboxing
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/electronics/best-music-videos-2016
+Found 1 accessibility violations:
+
+
+Rule Violated:
+duplicate-id - Ensures every id attribute value is unique
+	URL: https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI
+	Impact Level: moderate
+	Tags: cat.parsing wcag2a wcag411
+	Elements Affected:
+	1) Target: iframe[data-id="sonyplayer-YykjpeuMNEk"]
+		Document has multiple elements with the same id attribute: undefined-1526480773888
+
+
+
+URL = https://www.sony.co.uk/electronics/support/devices-to-your-tv-via-hdmi
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/generic-search
+Found 2 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img[align="middle"]:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img[align="middle"]:nth-child(13)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+
+
+Rule Violated:
+list - Ensures that lists are structured correctly
+	URL: https://dequeuniversity.com/rules/axe/3.0/list?application=axeAPI
+	Impact Level: serious
+	Tags: cat.structure wcag2a wcag131
+	Elements Affected:
+	1) Target: .spec-title-wrap > ol
+		List element has direct children that are not allowed inside <li> elements
+
+
+
+URL = https://www.sony.co.uk/playstation-store
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: .imageCover > img
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/how-to-clean-your-slt
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img:nth-child(5)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/oled-unboxing
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/electronics/best-music-videos-2016
+Found 1 accessibility violations:
+
+
+Rule Violated:
+duplicate-id - Ensures every id attribute value is unique
+	URL: https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI
+	Impact Level: moderate
+	Tags: cat.parsing wcag2a wcag411
+	Elements Affected:
+	1) Target: iframe[data-id="sonyplayer-YykjpeuMNEk"]
+		Document has multiple elements with the same id attribute: undefined-1526480773888
+
+
+
+URL = https://www.sony.co.uk/electronics/support/devices-to-your-tv-via-hdmi
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/generic-search
+Found 2 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img[align="middle"]:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img[align="middle"]:nth-child(13)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+
+
+Rule Violated:
+list - Ensures that lists are structured correctly
+	URL: https://dequeuniversity.com/rules/axe/3.0/list?application=axeAPI
+	Impact Level: serious
+	Tags: cat.structure wcag2a wcag131
+	Elements Affected:
+	1) Target: .spec-title-wrap > ol
+		List element has direct children that are not allowed inside <li> elements
+
+
+
+URL = https://www.sony.co.uk/playstation-store
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: .imageCover > img
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/how-to-clean-your-slt
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img:nth-child(5)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/oled-unboxing
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/hub/vendors
+Found 2 accessibility violations:
+
+
+Rule Violated:
+document-title - Ensures each HTML document contains a non-empty <title> element
+	URL: https://dequeuniversity.com/rules/axe/3.0/document-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag242
+	Elements Affected:
+	1) Target: html
+		Document does not have a non-empty <title> element
+
+
+
+
+
+Rule Violated:
+link-name - Ensures links have discernible text
+	URL: https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI
+	Impact Level: serious
+	Tags: cat.name-role-value wcag2a wcag111 wcag412 wcag244 section508 section508.22.a
+	Elements Affected:
+	1) Target: .simplescroll
+		Element does not have text that is visible to screen readers
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+		Element is in tab order and does not have accessible text
+
+
+
+URL = https://www.sony.co.uk/electronics/best-music-videos-2016
+Found 1 accessibility violations:
+
+
+Rule Violated:
+duplicate-id - Ensures every id attribute value is unique
+	URL: https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI
+	Impact Level: moderate
+	Tags: cat.parsing wcag2a wcag411
+	Elements Affected:
+	1) Target: iframe[data-id="sonyplayer-YykjpeuMNEk"]
+		Document has multiple elements with the same id attribute: undefined-1526480773888
+
+
+
+URL = https://www.sony.co.uk/electronics/support/devices-to-your-tv-via-hdmi
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/generic-search
+Found 2 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img[align="middle"]:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img[align="middle"]:nth-child(13)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+
+
+Rule Violated:
+list - Ensures that lists are structured correctly
+	URL: https://dequeuniversity.com/rules/axe/3.0/list?application=axeAPI
+	Impact Level: serious
+	Tags: cat.structure wcag2a wcag131
+	Elements Affected:
+	1) Target: .spec-title-wrap > ol
+		List element has direct children that are not allowed inside <li> elements
+
+
+
+URL = https://www.sony.co.uk/playstation-store
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: .imageCover > img
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/how-to-clean-your-slt
+Found 1 accessibility violations:
+
+
+Rule Violated:
+image-alt - Ensures <img> elements have alternate text or a role of none or presentation
+	URL: https://dequeuniversity.com/rules/axe/3.0/image-alt?application=axeAPI
+	Impact Level: critical
+	Tags: cat.text-alternatives wcag2a wcag111 section508 section508.22.a
+	Elements Affected:
+	1) Target: img:nth-child(5)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+	2) Target: img:nth-child(7)
+		Element does not have an alt attribute
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/support/oled-unboxing
+Found 1 accessibility violations:
+
+
+Rule Violated:
+frame-title - Ensures <iframe> and <frame> elements contain a non-empty title attribute
+	URL: https://dequeuniversity.com/rules/axe/3.0/frame-title?application=axeAPI
+	Impact Level: serious
+	Tags: cat.text-alternatives wcag2a wcag241 section508 section508.22.i
+	Elements Affected:
+	1) Target: iframe[allowfullscreen=""]
+		aria-label attribute does not exist or is empty
+		aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible
+		Element has no title attribute or the title attribute is empty
+		Element's default semantics were not overridden with role="presentation"
+		Element's default semantics were not overridden with role="none"
+
+
+
+URL = https://www.sony.co.uk/electronics/picture-quality
+Found 1 accessibility violations:
+
+
+Rule Violated:
+duplicate-id - Ensures every id attribute value is unique
+	URL: https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI
+	Impact Level: moderate
+	Tags: cat.parsing wcag2a wcag411
+	Elements Affected:
+	1) Target: .outerspace-top
+		Document has multiple elements with the same id attribute: SonyProcessors
+
+
+
