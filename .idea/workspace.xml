@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fccc963a-8c04-4c78-8a47-3929991f8601" name="Default" comment="" />
+    <list default="true" id="fccc963a-8c04-4c78-8a47-3929991f8601" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronics1000x&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronics2016-rio-summer-games&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-EDM-songs-2016&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-albums-2016&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-motivational-songs-for-marathon-training&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-movie-music-soundtracks-experience&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-music-videos-2016&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-pump-up-songs-for-weight-lifting&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-road-trip-songs-music-playlist-you-ever-need&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-summer-songs-2016&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-workout-music-playlist-songs&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbest-workout-songs-music-playlist-avoid-freshman-15&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsbraviaextra&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsg-master-lenses&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsmorning-commute-music-playlist&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsnegative_space&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicspicture-quality&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsretrosound-new-music-artists&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssmart-tv-features-apps-and-internet&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssummer-house-party&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportabout-color-management&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportadditional-functions-xav&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportandroid-unboxing&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportcamcorder-features-explained&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportconnect-mobile-to-tv-via-nfc&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportdevices-to-your-tv-via-hdmi&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportdime-basic-knowledge&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportgeneric-search&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportgetting-started-with-your-walkman-mediago&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupporthow-to-clean-alpha&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupporthow-to-clean-nex&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupporthow-to-clean-your-slt&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupporthow-to-make-nice-pictures&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupporthow-to-use-live-remote-with-action-cam&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportoled-unboxing&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportone-touch-listen-or-stream&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportplaymemories-mobile-transfer&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportvideo-tutorial-connect-devices-to-tv&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportvideo-tutorial-fill-flash&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportvideo-tutorial-find-out-more-about-lenses&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportvideo-tutorial-ilce-red-eyes&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportvideo-tutorial-ilce7&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicssupportvideo-tutorial-lenses&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicsvalentines-day-romantic-love-songs-music-playlist&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukelectronicswake-up-song-morning-music-playlist&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukfind-the-comp-model&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukfind-the-dime-model&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukfind-the-dna-model&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukfind-the-ebo-model&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukfind-the-mob-model&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukfind-the-model&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukhandycaminterview&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukhubvendors&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukplaystation-store&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/JSON_Results/www-sony-co-ukplaystation-video&#10;.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/finalReport.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/finalReport1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/finalReport2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/geckodriver.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Tests/url.txt" afterPath="$PROJECT_DIR$/Tests/url.txt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,8 +70,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="url.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/url.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tests/url.txt" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -18,10 +100,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="790" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -92,15 +173,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="790" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -119,11 +201,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tests/url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
