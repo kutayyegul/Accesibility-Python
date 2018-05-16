@@ -1,10 +1,5 @@
-import pytest
-from selenium import webdriver
-from axe_selenium_python import Axe
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.firefox.options import Options
-import os
-import time
+from helperAxe.modules import *
+from helperAxe.axeWriter import axeReporter
 
 def test_axe():
 
@@ -13,10 +8,8 @@ def test_axe():
 
     file = open("url.txt","r")
     urlList = file.readlines()
-    driver = webdriver.Firefox()
-    driver.set_window_size(320, 568)
-    time.sleep(1)
-    i = 1
+    driver = webdriver.Firefox(firefox_options=firefox_options)
+    #driver.set_window_size(320, 568)
     for urlTest in urlList:
         driver.get(urlTest)
         axe = Axe(driver)
@@ -29,20 +22,8 @@ def test_axe():
         
         # Write results to file
         #-------------------------
-        violationNumber = len(results['violations'])
-        print violationNumber, "violations found in ", urlTest
-        Report_Axe = axe.report(results['violations'])
-        if violationNumber != 0 :
-            file = open("finalReport{}.txt".format(i), "a")
-            file.write("URL = %s" %urlTest)
-            file.write(Report_Axe+ "\n")
-            file.flush()
-            num_lines = sum(1 for line in open("finalReport{}.txt".format(i)))
-            if num_lines >= 1000:
-                i = i+1
-        
-            formattedURL = urlTest.replace("/","").replace("https:","").replace(".","-")
-            axe.write_results('JSON_Results/{}.json'.format(formattedURL), results["violations"])
+        axeReporter(urlTest, results, driver)
+
     
     driver.close
 
